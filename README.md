@@ -25,10 +25,12 @@ Bases externas utilizadas en el proyecto:
 Bases limpias y datos intermedios generados por el código.
 
 **Resultados (/output/)**  
+
 - Gráficas, mapas y tablas generadas en el análisis.  
 - Resultados finales usados en el informe.
 
 **2. Contribución de cada integrante del equipo**  
+
 Integrante 1 (Nombre):  
 - Limpieza inicial de bases de Inside Airbnb.  
 - Construcción de métricas de rendimiento (precio esperado × tasa de ocupación).  
@@ -44,7 +46,13 @@ Integrante 3 (Nombre):
 - Redacción del resumen ejecutivo y conclusiones.  
 - Ajustes finales del PDF.  
 
+Integrante 4 (Nombre):  
+- Visualizaciones (gráficas finales, tablas comparativas).  
+- Redacción del resumen ejecutivo y conclusiones.  
+- Ajustes finales del PDF.  
+
 **3. Uso de IA en el proyecto**  
+
 El equipo empleó IA de forma responsable y complementaria, respetando las políticas del curso. En particular:  
 Se utilizó ChatGPT para:  
 - Resolver dudas puntuales sobre errores en R.  
