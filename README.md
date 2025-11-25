@@ -1,40 +1,34 @@
 ## README – Data Challenge: Airbnb en CDMX
 **1. Resumen del contenido del repositorio**  
-Este repositorio contiene todo el código, datos procesados y material utilizado para elaborar el informe ejecutivo del Data Challenge de Microeconometría Aplicada (ITAM). El objetivo del proyecto es identificar las tres colonias de la Ciudad de México con mejor rendimiento potencial para invertir en propiedades tipo Airbnb, utilizando análisis estadístico, herramientas econométricas y bases de datos externas.  
+Este repositorio contiene todo el código, datos procesados y material utilizado para elaborar el informe ejecutivo del Data Challenge de Microeconometría Aplicada (ITAM).
+El **objetivo del proyecto** es identificar las tres colonias de la Ciudad de México con mejor rendimiento potencial para invertir en propiedades tipo Airbnb, utilizando análisis estadístico, herramientas econométricas y bases de datos externas.  
 
 **2.Estructura del repositorio**
-
 El repositorio incluye:  
 
 **Código (/code/)**   
 Scripts en R que realizan:
 - Carga y limpieza de los datos de Inside Airbnb
-- Conversión de coordenadas y análisis espacial con sf
-- Mapa de distribución de propiedades
-- Unión espacial a colonias
+- Conversión de coordenadas y análisis espacial
+- Mapa de distribución de propiedades (a nivel alcaldía y colonia)
 - Construcción y uso de la base externa de sitios turísticos
-- Regresión con efectos fijos por colonia (fixest)
-- Cálculo de distancias usando geosphere
-- Ranking de colonias según efecto fijo
+- Modelo de Regresión con efectos fijos por colonia (fixest)
+- Ranking de alcaldías y colonias
 - Estadísticas descriptivas del Top 3
 
-**Datos (/data/)**  
-
-Datos originales de Inside Airbnb:  
-
-- listings.csv  
-- listings_scraped.csv  
-- neighbourhoods.geojson
-
-Bases limpias y datos intermedios generados por el código:  
-
-- sitios_turisticos_cdmx.csv (base externa creada por el equipo)
-
-Bases externas utilizadas en el proyecto:
-- colonias-cdmx.geojson
+**Códigos y Bases de Datos (/data/)**  
+CÓDIGOS
+- BaseDataChallenge_Alcaldías.R -> Este código contiene el modelo de efectos fijos para el análisis a nivel alcaldía.
+- BaseDataChallenge_Colonias.R -> Este código contiene el modelo de efectos fijos para el análisis a nivel colonia.
+- BaseTurismo.R -> Este código genera la base de datos sitios_turisticos_cdmx.csv con los 15 sitios turísticos más visitados en la CDMX y sus coordenadas.
+  
+BASES DE DATOS
+- listings_scraped.csv -> Esta es la base principal, de aquí salen las variables principales con las que trabajamos el modelo y los Efectos Fijos. 
+- neighbourhoods.geojson -> Las coordenadas contenidas dentro de este archivo nos sirvieron para mapear los Airbnbs en las alcaldías.
+- colonias-cdmx.geojson -> Las coordenadas contenidas dentro de este archivo nos sirvieron para mapear los Airbnbs por colonia.
+- sitios_turisticos_cdmx.csv -> Base externa creada por el equipo mediante BaseTurismo.R.
 
 **Resultados (/output/)**  
-
 - Gráficas, mapas y tablas generadas en el análisis.  
 - Resultados finales usados en el informe.
 
