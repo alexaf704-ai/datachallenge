@@ -4,10 +4,12 @@ Este repositorio contiene todo el código, datos procesados y material utilizado
 El **objetivo del proyecto** es identificar las tres colonias de la Ciudad de México con mejor rendimiento potencial para invertir en propiedades tipo Airbnb, utilizando análisis estadístico, herramientas econométricas y bases de datos externas.  
 
 **2.Estructura del repositorio**
-El repositorio incluye:  
+**CÓDIGOS**
+- BaseDataChallenge_Alcaldías.R -> Este código contiene el modelo de efectos fijos para el análisis a nivel alcaldía.
+- BaseDataChallenge_Colonias.R -> Este código contiene el modelo de efectos fijos para el análisis a nivel colonia.
+- BaseTurismo.R -> Este código genera la base de datos sitios_turisticos_cdmx.csv con los 15 sitios turísticos más visitados en la CDMX y sus coordenadas.
 
-**Código**   
-Scripts en R que realizan:
+**Scripts en R realizan:**
 - Carga y limpieza de los datos de Inside Airbnb
 - Conversión de coordenadas y análisis espacial
 - Mapa de distribución de propiedades (a nivel alcaldía y colonia)
@@ -15,25 +17,18 @@ Scripts en R que realizan:
 - Modelo de Regresión con efectos fijos por colonia (fixest)
 - Ranking de alcaldías y colonias
 - Estadísticas descriptivas del Top 3
-
-**Códigos y Bases de Datos**  
-CÓDIGOS
-- BaseDataChallenge_Alcaldías.R -> Este código contiene el modelo de efectos fijos para el análisis a nivel alcaldía.
-- BaseDataChallenge_Colonias.R -> Este código contiene el modelo de efectos fijos para el análisis a nivel colonia.
-- BaseTurismo.R -> Este código genera la base de datos sitios_turisticos_cdmx.csv con los 15 sitios turísticos más visitados en la CDMX y sus coordenadas.
   
-BASES DE DATOS
+**BASES DE DATOS**
 - listings_scraped.csv -> Esta es la base principal, de aquí salen las variables principales con las que trabajamos el modelo y los Efectos Fijos. 
 - neighbourhoods.geojson -> Las coordenadas contenidas dentro de este archivo nos sirvieron para mapear los Airbnbs en las alcaldías.
 - colonias-cdmx.geojson -> Las coordenadas contenidas dentro de este archivo nos sirvieron para mapear los Airbnbs por colonia.
 - sitios_turisticos_cdmx.csv -> Base externa creada por el equipo mediante BaseTurismo.R.
 
-**Resultados**  
+**RESULTADOS**  
 - Gráficas, mapas y tablas generadas en el análisis.  
 - Resultados finales usados en el informe.
 
-**2. Contribución de cada integrante del equipo**  
-
+**3. Contribución de cada integrante del equipo**  
 Alexa Fernanda Hernández Monroy:
 - Limpieza inicial de bases de Inside Airbnb.  
 - Elaboración de mapas con las coordenadas espaciales.
@@ -54,7 +49,7 @@ José Luis Cortina:
 - Redacción del resumen ejecutivo y conclusiones.
 - Planteamiento del modelo.  
   
-**3. Uso de IA en el proyecto**  
+**4. Uso de IA en el proyecto**  
 El equipo empleó IA de forma responsable y complementaria, respetando las políticas del curso. En particular:  
 Se utilizó ChatGPT y Claude AI para:  
 - Resolver dudas puntuales sobre errores en R.  
