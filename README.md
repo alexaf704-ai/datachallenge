@@ -3,7 +3,7 @@
 Este repositorio contiene todo el código, datos procesados y material utilizado para elaborar el informe ejecutivo del Data Challenge de Microeconometría Aplicada (ITAM).
 El **objetivo del proyecto** es identificar las tres colonias de la Ciudad de México con mejor rendimiento potencial para invertir en propiedades tipo Airbnb, utilizando análisis estadístico, herramientas econométricas y bases de datos externas.  
 
-**2.Estructura del repositorio**
+**2. Estructura del repositorio**
 **CÓDIGOS**
 - BaseDataChallenge_Alcaldías.R -> Este código contiene el modelo de efectos fijos para el análisis a nivel alcaldía.
 - BaseDataChallenge_Colonias.R -> Este código contiene el modelo de efectos fijos para el análisis a nivel colonia.
