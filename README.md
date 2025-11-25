@@ -21,6 +21,7 @@ Datos originales de Inside Airbnb:
 - listings_scraped.csv  
 - neighbourhoods.geojson
 - sitios_turisticos_cdmx.csv
+- reviews1.csv
 - 
 Bases externas utilizadas en el proyecto:
 
