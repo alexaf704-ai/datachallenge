@@ -39,17 +39,17 @@ Alexa Fernanda Hernández Monroy:
 - Elaboración de mapas con las coordenadas espaciales.
 - Planteamiento del modelo.
 
-Paulina Ramirez Carrillo:  
+Ma. Paulina Ramírez Carrillo:  
 - Planteamiento del modelo.  
 - Programación del modelo y análisis econométrico.  
 - Integración de la base externa.
 
-Jeronimo Cuevas Aguilar Alvarez:  
+Jerónimo Cuevas Aguilar Álvarez:  
 - Búsqueda de bases externas y de información relevante.
 - Planteamiento del modelo.  
 - Ajustes al resumen ejecutivo.  
 
-Jose Luis Cortina: 
+José Luis Cortina: 
 - Visualizaciones (gráficas finales, tablas comparativas).  
 - Redacción del resumen ejecutivo y conclusiones.
 - Planteamiento del modelo.  
